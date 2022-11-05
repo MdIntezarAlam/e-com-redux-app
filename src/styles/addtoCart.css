@@ -1,0 +1,134 @@
+.add_cart {
+    width: 100vw;
+    display: inline-block;
+}
+
+.add_box {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    min-height: 600px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 3px;
+}
+
+.left {
+    background-color: #f3f3;
+    width: 89vw;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    margin: 3px;
+    background-color: rgba(180, 180, 180, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    line-height: 30px;
+
+}
+
+h5 {
+    font-size: 19px;
+    padding: 10px;
+}
+
+.cart_images {
+    height: 200px;
+    width: 86vw;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.cart_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.cart_description {
+    color: gray;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+/* Right Container */
+
+.right {
+    width: 45vw;
+    height: 310px;
+    align-items: center;
+    align-items: flex-start;
+    margin: 3px;
+    background-color: rgba(83, 80, 83, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    line-height: 30px;
+}
+
+
+
+h3 {
+    font-size: 22px;
+    padding: 10px;
+    text-align: center;
+}
+
+.add_price {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+
+}
+
+.carts_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place_order {
+    width: 40%;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color: orange;
+    padding: 6px;
+}
+
+.remove_order {
+    width: 40%;
+    outline: none;
+    border: 0;
+    border-radius: 3px;
+    color: #fdfdfd;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 30px;
+    background-color:red;
+    padding: 6px;
+}
+
+@media only screen and (max-width: 600px) {
+    .add_box {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+        display: block;
+    }
+}
